@@ -141,3 +141,64 @@ nav .menu li a:hover {
     box-sizing: border-box;
     cursor: pointer;
 }
+
+.note-section {
+    background-color: #FAFBFC;
+    text-align: center;
+}
+
+.note-continar .note-header h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    /* padding-top: 45px;
+    padding-bottom: 16px; */
+}
+.note-continar .note-header p {
+    font-size: 16px;
+    color: #627382;
+}
+
+.note-info{
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+    gap: 16px;
+    
+}
+.note-info .note-card {
+    /* border: solid red; */
+    padding: 69.5px 24px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 0 8 0 rgba(0, 0, 0, 0.788);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.note-info .note-card .icon-box{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.note-info .note-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.note-info .note-card p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
