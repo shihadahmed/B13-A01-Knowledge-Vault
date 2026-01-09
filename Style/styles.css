@@ -56,7 +56,7 @@ nav .menu li a:hover {
     cursor: pointer;
 }
 
-.btn-section .btn:hover {
+.btn-section .btn:hover .cta-btn:hover {
     background-color: #28a35c;
 }
 #banner-section{
@@ -201,4 +201,102 @@ nav .menu li a:hover {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
+}
+.solution-section{
+    /* border: solid red; */
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 120px;
+}
+.solution-continar{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+}
+.solution-img{
+    width: 600px;
+    border-radius: 12px;
+}
+.solution-content{
+    width: 700px;
+    text-align: left;
+}
+.solution-content .slabel{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+}
+.solution-content h2 {
+    /* border: solid red; */
+    font-size: 48px;
+    font-weight: 700;
+    line-height: auto;
+    color: #001931;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.solution-content p{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.solution-content .solution-list{
+    list-style: none;
+    padding-left: 0;
+}
+.solution-content li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.solution-content li img{
+    width: 16.25px;
+    margin-right: 7.87px;
+}
+#early-access-section{
+    /* border: solid red; */
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+#early-access-section .early-access-container .early-access-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    text-align: center;
+    margin-bottom: 16px;
+}
+#early-access-section .early-access-container{
+    background-color:#F7F6F2;
+    /* border: solid red; */
+    border-radius: 12px;
+    /* box-shadow: inset 0px 10px 20px 0px rgba(0, 0, 0, 0.15); */
+    box-shadow: inset 0px 15px 20px -10px rgba(0, 0, 0, 0.15);
+    padding: 80px 40px;
+
+}
+#early-access-section .early-access-container .early-access-content p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.cta-btn{
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600 ;
+    color: #FFFFFF;
+    background-color: #469165;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+}
+.cta-footer-text{
+    font-size: 16px;
+    margin-top: 16px;
+
 }
